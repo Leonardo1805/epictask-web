@@ -7,7 +7,7 @@ function concluir(id){
     tarefa.concluida = true
     //salvar no localstorage
     localStorage.setItem("tarefas", JSON.stringify(tarefas))
-
     //
     atualizar()
+    calcularEstatistica()
 }
